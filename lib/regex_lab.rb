@@ -1,4 +1,6 @@
+require 'pry'
 def starts_with_a_vowel?(word)
+word.downcase.match(/^[aeiou]/) ? true : false
 
 end
 
@@ -17,3 +19,5 @@ end
 def valid_phone_number?(phone)
 
 end
+
+#binding.pry
